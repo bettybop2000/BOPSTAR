@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bopstar - Bettybop2000</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            padding: 40px 20px;
+        }
+        
+        h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, #ffffff 0%, #e94560 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .tagline {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+            color: #e94560;
+        }
+        
+        .coming-soon {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            opacity: 0.8;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        
+        .social-links a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #e94560;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            background: #e94560;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BOPSTAR</h1>
+        <p class="tagline">Queen. Empire. Unstoppable.</p>
+        <p class="coming-soon">Empire Under Construction</p>
+        
+        <div class="social-links">
+            <a href="https://open.spotify.com/artist/YOUR_SPOTIFY" target="_blank">Spotify</a>
+            <a href="https://instagram.com/YOUR_INSTAGRAM" target="_blank">Instagram</a>
+            <a href="https://tiktok.com/@YOUR_TIKTOK" target="_blank">TikTok</a>
+        </div>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bopstar - Bettybop2000</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            padding: 40px 20px;
+        }
+        
+        h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, #ffffff 0%, #e94560 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .tagline {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+            color: #e94560;
+        }
+        
+        .coming-soon {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            opacity: 0.8;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        
+        .social-links a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #e94560;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            background: #e94560;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BOPSTAR</h1>
+        <p class="tagline">Queen. Empire. Unstoppable.</p>
+        <p class="coming-soon">Empire Under Construction</p>
+        
+        <div class="social-links">
+            <a href="https://open.spotify.com/artist/YOUR_SPOTIFY" target="_blank">Spotify</a>
+            <a href="https://instagram.com/YOUR_INSTAGRAM" target="_blank">Instagram</a>
+            <a href="https://tiktok.com/@YOUR_TIKTOK" target="_blank">TikTok</a>
+        </div>
+    </div>
+</body>
+</html>
