@@ -724,6 +724,9 @@ section {
   align-items: center;
   max-width: 900px;
   margin: 0 auto;
+  background: var(--dark);
+  padding: 40px;
+  color: white;
 }
 
 .release-cover {
@@ -733,7 +736,7 @@ section {
 }
 
 .release-info {
-  color: white;
+  color: var(--dark);
 }
 
 .release-label {
