@@ -58,7 +58,8 @@ body {
 }
 
 .logo {
-    font-size: 1.2em;
+    font-family: 'Pinyon Script' , cursive;
+    font-size: 1.5em;
     font-weight: 300;
     letter-spacing: 6px;
     color: var(--light);
@@ -133,7 +134,8 @@ body {
     z-index: 1;
 }
 
-.hero-content {
+.hero-content h1 {
+    font-family: 'Pinyon Scriot' , cursive;
     position: relative;
     z-index: 2;
     color: white;
