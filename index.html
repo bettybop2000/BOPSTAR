@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bopstar | Bettybop2000</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
@@ -29,9 +30,11 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <img src="assets/hero.jpeg" alt="Bopstar" class="hero-bg">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1 class="glitch" data-text="BOPSTAR">BOPSTAR</h1>
-            <p class="tagline">Queen. Empire. Unstoppable.</p>
+            <p class="hero-pre">BETTYBOP2000 PRESENTS</p>
+            <h1>BOPSTAR</h1>
+            <p class="tagline">QUEEN. EMPIRE. UNSTOPPABLE.</p>
             <p class="subtitle">London-based artist building a dark, sensual empire through sound.</p>
             <div class="cta-buttons">
                 <a href="#music" class="btn btn-primary">Listen Now</a>
@@ -47,6 +50,7 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
+            <p class="section-pre">THE STORY</p>
             <h2 class="section-title">The Empire</h2>
             <div class="about-content">
                 <div class="about-text">
@@ -76,7 +80,10 @@
     <!-- Music Section -->
     <section id="music" class="music">
         <div class="container">
+            <p class="section-pre">DISCOGRAPHY</p>
             <h2 class="section-title">Music</h2>
+
+            <!-- Latest Release -->
             <div class="release-card">
                 <img src="assets/demand-cover.PNG" alt="Demand Cover" class="release-cover">
                 <div class="release-info">
@@ -90,13 +97,28 @@
                     </div>
                 </div>
             </div>
+
+            <!-- BettyBop2K Single Player -->
+            <div class="single-player">
+                <p class="release-label">LISTEN NOW</p>
+                <h3>BettyBop2K</h3>
+                <iframe
+                    src="https://open.spotify.com/embed/track/0bZaqpUtKWuPzKIi8p63A4"
+                    width="100%"
+                    height="152"
+                    frameborder="0"
+                    allowtransparency="true"
+                    allow="encrypted-media">
+                </iframe>
+            </div>
         </div>
     </section>
 
     <!-- Music Video Section -->
     <section class="music-video">
         <div class="container">
-            <h2 class="section-title">BETTYBOP2K</h2>
+            <p class="section-pre">VISUALS</p>
+            <h2 class="section-title">BettyBop2K</h2>
             <div class="video-wrapper">
                 <iframe
                     src="https://www.youtube.com/embed/0jPXVmfWzL8"
@@ -112,6 +134,7 @@
     <!-- Shop Section -->
     <section id="shop" class="shop">
         <div class="container">
+            <p class="section-pre">THE COLLECTION</p>
             <h2 class="section-title">Empire Collection</h2>
             <div class="shop-grid">
                 <div class="product-card">
@@ -165,6 +188,7 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
+            <p class="section-pre">GET IN TOUCH</p>
             <h2 class="section-title">Connect</h2>
             <div class="contact-content">
                 <div class="contact-info">
@@ -173,18 +197,10 @@
                     <a href="mailto:bopstar@bettybop2000.live" class="email">bopstar@bettybop2000.live</a>
                 </div>
                 <div class="social-links">
-                    <a href="https://open.spotify.com/artist/224KNJeeaIAMvaP5sXHRSl?si=l_kCopy0RPq--ftmcL3CGQ" class="social-link" target="_blank">
-                        <span>Spotify</span>
-                    </a>
-                    <a href="#" class="social-link" target="_blank">
-                        <span>Instagram</span>
-                    </a>
-                    <a href="#" class="social-link" target="_blank">
-                        <span>TikTok</span>
-                    </a>
-                    <a href="https://youtube.com/@bettybop2000?si=ViLz2uHJes3opmbr" class="social-link" target="_blank">
-                        <span>YouTube</span>
-                    </a>
+                    <a href="https://open.spotify.com/artist/224KNJeeaIAMvaP5sXHRSl" class="social-link" target="_blank">Spotify</a>
+                    <a href="#" class="social-link" target="_blank">Instagram</a>
+                    <a href="#" class="social-link" target="_blank">TikTok</a>
+                    <a href="https://youtube.com/@bettybop2000" class="social-link" target="_blank">YouTube</a>
                 </div>
             </div>
         </div>
