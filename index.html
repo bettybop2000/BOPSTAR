@@ -6,6 +6,17 @@
     <title>Bopstar | Bettybop2000</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+<style>
+  @font-face {
+    font-display: block;
+    font-family: Roboto;
+    src: url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")
+  }
+  :where(.sib-form-message-panel) { display: none; }
+  #sib-container input::placeholder { font-family: Helvetica, sans-serif; text-align: left; color: #c0ccda; }
+  #sib-container a { text-decoration: underline; color: #2BB2FC; }
+</style>
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -197,15 +208,39 @@
                 </div>
             </div>
 
-            <div class="newsletter">
-                <h3>Join The Empire</h3>
-                <p>First access to new drops, music, and exclusives</p>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Your email" required>
-                    <button type="submit" class="btn btn-primary">Join</button>
-                </form>
+                <div class="newsletter">
+  <div id="sib-form-container" class="sib-form-container">
+    <div id="error-message" class="sib-form-message-panel" style="font-family:Helvetica,sans-serif;font-size:16px;color:#661d1d;background-color:#ffeded;border-color:#ff4949;border-radius:3px;max-width:540px;">
+      <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+        <span class="sib-form-message-panel__inner-text">Your subscription could not be saved. Please try again.</span>
+      </div>
+    </div>
+    <div id="success-message" class="sib-form-message-panel" style="font-family:Helvetica,sans-serif;font-size:16px;color:#085229;background-color:#e7faf0;border-color:#13ce66;border-radius:3px;max-width:540px;">
+      <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+        <span class="sib-form-message-panel__inner-text">Your subscription has been successful.</span>
+      </div>
+    </div>
+    <div id="sib-container" class="sib-container--large sib-container--vertical" style="max-width:540px;text-align:center;background-color:transparent;border-width:1px;border-style:solid;border-color:rgba(139,0,0,0.3);border-radius:0;direction:ltr;margin:0 auto;">
+      <form id="sib-form" method="POST" action="https://1ae4e3f5.sibforms.com/serve/MUIFAGbJF2PGPlOU_L_-anNU2yjhpFhqv3cDA8urj5NWM4yxQ9zxuwvB5gfrRNGvXDp8MtQwXR9s6bXO0GoZc5zo-JAmPLMWYcTzoWWNV1cRqV5pjo-bqEcaLqnEEoPX8vq60xwCV2mNznEYLc9h6hYq17e_rjcGy3LsrS65pg36OzRcfngvYs7MaupLz9iBQuB_FEHWsBP-mZ6bGQ==" data-type="subscription" style="padding:30px;">
+        <p style="font-family:'Cormorant Garamond',serif;font-size:2em;font-weight:300;letter-spacing:4px;color:#ffffff;margin-bottom:15px;">Join The Empire</p>
+        <p style="font-family:'Montserrat',sans-serif;font-size:0.85em;color:#666;margin-bottom:25px;letter-spacing:1px;">First access to new drops, music, and exclusives</p>
+        <div class="sib-input sib-form-block" style="margin-bottom:15px;">
+          <div class="form__entry entry_block">
+            <div class="form__label-row">
+              <div class="entry__field">
+                <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="YOUR EMAIL" data-required="true" required style="width:100%;padding:14px 20px;background:transparent;border:1px solid rgba(139,0,0,0.4);color:#ffffff;font-family:'Montserrat',sans-serif;font-size:0.85em;letter-spacing:2px;"/>
+              </div>
             </div>
+            <label class="entry__error entry__error--primary" style="font-family:Helvetica,sans-serif;font-size:14px;color:#661d1d;background-color:#ffeded;border-color:#ff4949;border-radius:3px;"></label>
+          </div>
         </div>
+        <button class="sib-form-block__button" form="sib-form" type="submit" style="width:100%;padding:14px;background:var(--red);color:#ffffff;border:none;font-family:'Montserrat',sans-serif;font-size:0.75em;letter-spacing:4px;text-transform:uppercase;cursor:pointer;transition:0.3s;">JOIN</button>
+        <input type="text" name="email_address_check" value="" class="input--hidden">
+        <input type="hidden" name="locale" value="en">
+      </form>
+    </div>
+  </div>
+</div>
     </section>
    
     <!-- Contact Section -->
@@ -238,5 +273,14 @@
     </footer>
 
     <script src="script.js"></script>
+<script>
+  window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+  window.LOCALE = 'en';
+  window.EMAIL_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+  window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank.";
+  window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+  var AUTOHIDE = Boolean(0);
+</script>
+<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
 </body>
 </html>
