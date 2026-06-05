@@ -4,30 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bopstar | Bettybop2000</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
-<style>
-  @font-face {
-    font-display: block;
-    font-family: Roboto;
-    src: url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")
-  }
-  :where(.sib-form-message-panel) { display: none; }
-  #sib-container input::placeholder { font-family: Helvetica, sans-serif; text-align: left; color: #c0ccda; }
-  #sib-container a { text-decoration: underline; color: #2BB2FC; }
-</style>
-<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+    <style>
+      @font-face {
+        font-display: block;
+        font-family: Roboto;
+        src: url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")
+      }
+      :where(.sib-form-message-panel) { display: none; }
+      #sib-container input::placeholder { font-family: Helvetica, sans-serif; text-align: left; color: #c0ccda; }
+      #sib-container a { text-decoration: underline; color: #2BB2FC; }
+    </style>
+    <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
 </head>
 <body>
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">BOPSTAR</div>
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#music">Music</a></li>
                 <li><a href="#shop">Shop</a></li>
+                <li><a href="#music">Music & Visuals</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -48,8 +50,8 @@
             <p class="tagline">QUEEN. EMPIRE. UNSTOPPABLE.</p>
             <p class="subtitle">London-based artist building a dark, sensual empire through sound.</p>
             <div class="cta-buttons">
-                <a href="#music" class="btn btn-primary">Listen Now</a>
-                <a href="#shop" class="btn btn-secondary">Shop</a>
+                <a href="#shop" class="btn btn-primary">Shop The Empire</a>
+                <a href="#music" class="btn btn-secondary">Listen Now</a>
             </div>
         </div>
         <div class="scroll-indicator">
@@ -58,19 +60,193 @@
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- ========== SHOP SECTION ========== -->
+    <section id="shop" class="shop">
+        <div class="container">
+            <p class="section-pre">THE EMPIRE STORE</p>
+            <h2 class="section-title">Shop</h2>
+
+            <!-- Shop Category Tabs -->
+            <div class="shop-tabs">
+                <button class="shop-tab active" data-tab="art">Art & Prints</button>
+                <button class="shop-tab" data-tab="fashion">Fashion</button>
+                <button class="shop-tab" data-tab="edit">The Edit</button>
+                <button class="shop-tab" data-tab="books">Books</button>
+            </div>
+
+            <!-- ART & PRINTS -->
+            <div class="shop-panel active" id="tab-art">
+                <div class="shop-panel-intro">
+                    <p>Original oil pastel works on cardboard. Each piece is part of a trilogy — made from truth, printed for your walls.</p>
+                </div>
+
+                <div class="product-grid">
+
+                    <!-- Pride -->
+                    <div class="product-card-full">
+                        <div class="product-card-image">
+                            <img src="assets/pride.jpg" alt="Pride — Bopstar Original No. 1">
+                            <span class="product-badge-live">Available Now</span>
+                        </div>
+                        <div class="product-card-info">
+                            <p class="product-number">NO. 1</p>
+                            <h3 class="product-name">Pride</h3>
+                            <p class="product-desc">Oil pastel on cardboard. Bold, unapologetic, elevated. The first declaration.</p>
+                            <div class="size-options">
+                                <a href="https://buy.stripe.com/dRm3cvaPiatc3XV9zo7wA01" class="size-btn" target="_blank">8×10" — £25</a>
+                                <a href="https://buy.stripe.com/5kQ14n7D67h00LJ12S7wA02" class="size-btn" target="_blank">11×14" — £35</a>
+                                <a href="https://buy.stripe.com/8x2aEX6z29p8dyv5j87wA03" class="size-btn" target="_blank">16×20" — £45</a>
+                            </div>
+                            <p class="product-note">Printed to order · Ships in 5–7 days</p>
+                        </div>
+                    </div>
+
+                    <!-- Respect -->
+                    <div class="product-card-full">
+                        <div class="product-card-image">
+                            <img src="assets/respect.jpeg" alt="Respect — Bopstar Original No. 2">
+                            <span class="product-badge-live">Available Now</span>
+                        </div>
+                        <div class="product-card-info">
+                            <p class="product-number">NO. 2</p>
+                            <h3 class="product-name">Respect</h3>
+                            <p class="product-desc">Oil pastel on cardboard. Spontaneous, instinctive, fluid. It just became part of me.</p>
+                            <div class="size-options">
+                                <a href="https://buy.stripe.com/14AbJ10aEgRA1PNeTI7wA04" class="size-btn" target="_blank">8×10" — £25</a>
+                            </div>
+                            <p class="product-note">Printed to order · Ships in 5–7 days</p>
+                        </div>
+                    </div>
+
+                    <!-- Love — Coming Soon -->
+                    <div class="product-card-full coming-soon-card">
+                        <div class="product-card-image placeholder-img">
+                            <span class="coming-soon-badge">Coming Soon</span>
+                        </div>
+                        <div class="product-card-info">
+                            <p class="product-number">NO. 3</p>
+                            <h3 class="product-name">Love</h3>
+                            <p class="product-desc">The final chapter of the trilogy. Join the empire to be first to know.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- FASHION -->
+            <div class="shop-panel" id="tab-fashion">
+                <div class="shop-panel-intro">
+                    <p>Bopstar original designs. Dark, elevated, wearable. Built for the woman who moves through the world on her own terms.</p>
+                </div>
+                <div class="coming-soon-full">
+                    <div class="coming-soon-teaser">
+                        <p class="teaser-label">FIRST DROP</p>
+                        <h3 class="teaser-title">The Yellow Two Piece</h3>
+                        <p class="teaser-desc">Fine mesh. Fur trim. Corset back. [DENIED.] painted on the spine. Coming when it's ready.</p>
+                        <span class="coming-badge">In Production</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- THE EDIT -->
+            <div class="shop-panel" id="tab-edit">
+                <div class="shop-panel-intro">
+                    <p>Curated by Bopstar. Dark feminine luxury casual — the gap nobody filled. Pieces that move with you.</p>
+                </div>
+                <div class="coming-soon-full">
+                    <div class="coming-soon-teaser">
+                        <p class="teaser-label">DROPPING SOON</p>
+                        <h3 class="teaser-title">The Edit</h3>
+                        <p class="teaser-desc">Handpicked pieces. Nothing generic. Join the empire to get first access.</p>
+                        <span class="coming-badge">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BOOKS -->
+            <div class="shop-panel" id="tab-books">
+                <div class="shop-panel-intro">
+                    <p>Words from the empire. Coming soon.</p>
+                </div>
+                <div class="coming-soon-full">
+                    <div class="coming-soon-teaser">
+                        <p class="teaser-label">COMING SOON</p>
+                        <h3 class="teaser-title">Books</h3>
+                        <p class="teaser-desc">The empire in words. Stay close.</p>
+                        <span class="coming-badge">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mailing List -->
+            <div class="newsletter">
+                <h3>Join The Empire</h3>
+                <p>First access to new drops, music, and exclusives</p>
+                <iframe width="540" height="305" src="https://1ae4e3f5.sibforms.com/serve/MUIFAGbJF2PGPlOU_L_-anNU2yjhpFhqv3cDA8urj5NWM4yxQ9zxuwvB5gfrRNGvXDp8MtQwXR9s6bXO0GoZc5zo-JAmPLMWYcTzoWWNV1cRqV5pjo-bqEcaLqnEEoPX8vq60xwCV2mNznEYLc9h6hYq17e_rjcGy3LsrS65pg36OzRcfngvYs7MaupLz9iBQuB_FEHWsBP-mZ6bGQ==" frameborder="0" scrolling="auto" allowfullscreen style="display:block;margin-left:auto;margin-right:auto;max-width:100%;border:1px solid rgba(139,0,0,0.3);"></iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== MUSIC & VISUALS ========== -->
+    <section id="music" class="music">
+        <div class="container">
+            <p class="section-pre">MUSIC & VISUALS</p>
+            <h2 class="section-title">The Sound</h2>
+
+            <div class="release-card">
+                <img src="assets/demand-cover.PNG" alt="Demand Cover" class="release-cover">
+                <div class="release-info">
+                    <p class="release-label">LATEST RELEASE</p>
+                    <h3>Demand</h3>
+                    <p>The empire's first decree</p>
+                    <div class="music-links">
+                        <a href="https://open.spotify.com/artist/224KNJeeaIAMvaP5sXHRSl?si=l_kCopy0RPq--ftmcL3CGQ" class="music-link" target="_blank">Spotify</a>
+                        <a href="https://music.apple.com/gb/artist/bettybop2000/1881358566" class="music-link" target="_blank">Apple Music</a>
+                        <a href="https://youtube.com/@bettybop2000?si=ViLz2uHJes3opmbr" class="music-link" target="_blank">YouTube</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-player">
+                <p class="release-label">LISTEN NOW</p>
+                <h3>BettyBop2K</h3>
+                <iframe
+                    src="https://open.spotify.com/embed/track/0bZaqpUtKWuPzKIi8p63A4"
+                    width="100%"
+                    height="152"
+                    frameborder="0"
+                    allowtransparency="true"
+                    allow="encrypted-media">
+                </iframe>
+            </div>
+
+            <div class="video-wrapper" style="margin-top:3rem;">
+                <p class="release-label" style="margin-bottom:1rem;">VISUALS</p>
+                <iframe
+                    src="https://www.youtube.com/embed/0jPXVmfWzL8"
+                    title="BettyBop2K Music Video"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
     <section id="about" class="about">
         <div class="container">
             <p class="section-pre">THE STORY</p>
             <h2 class="section-title">The Empire</h2>
             <div class="about-content">
-             <div class="about-text">
-    <p class="lead">Born in Lagos. Raised on instinct. Now building an empire from London.</p>
-    <p>Bettybop2000 spent years conditioned to suppress what was always hers — a God-given gift for sound, vision, and creation. In 2026, she chose to reclaim it all. No permission needed.</p>
-    <p>Deeply rooted in the new wave of art that swept through Nigeria and redefined African music and fashion, her sound is shaped by something even more personal — the journey of radical self-acceptance. The more she embraced herself, the clearer it became: no other life was ever going to be enough.</p>
-    <p>Bopstar is not just an artist. She is a movement. A call to every person who has dimmed their light to finally step into center stage — their own. Her music, her art, her fashion, every project she touches is intuitively led, drawn from source, combining all creative forms into something that cannot be boxed or compared.</p>
-    <p class="quote">"I am carving out my own lane — and I am just getting started."</p>
-</div>       
+                <div class="about-text">
+                    <p class="lead">Born in Lagos. Raised on instinct. Now building an empire from London.</p>
+                    <p>Bettybop2000 spent years conditioned to suppress what was always hers — a God-given gift for sound, vision, and creation. In 2026, she chose to reclaim it all. No permission needed.</p>
+                    <p>Deeply rooted in the new wave of art that swept through Nigeria and redefined African music and fashion, her sound is shaped by something even more personal — the journey of radical self-acceptance. The more she embraced herself, the clearer it became: no other life was ever going to be enough.</p>
+                    <p>Bopstar is not just an artist. She is a movement. A call to every person who has dimmed their light to finally step into center stage — their own. Her music, her art, her fashion, every project she touches is intuitively led, drawn from source, combining all creative forms into something that cannot be boxed or compared.</p>
+                    <p class="quote">"I am carving out my own lane — and I am just getting started."</p>
+                </div>
                 <div class="about-stats">
                     <div class="stat">
                         <span class="stat-number">Producer</span>
@@ -89,140 +265,7 @@
         </div>
     </section>
 
-    <!-- Music Section -->
-    <section id="music" class="music">
-        <div class="container">
-            <p class="section-pre">DISCOGRAPHY</p>
-            <h2 class="section-title">Music</h2>
-
-            <!-- Latest Release -->
-            <div class="release-card">
-                <img src="assets/demand-cover.PNG" alt="Demand Cover" class="release-cover">
-                <div class="release-info">
-                    <p class="release-label">LATEST RELEASE</p>
-                    <h3>Demand</h3>
-                    <p>The empire's first decree</p>
-                    <div class="music-links">
-                        <a href="https://open.spotify.com/artist/224KNJeeaIAMvaP5sXHRSl?si=l_kCopy0RPq--ftmcL3CGQ" class="music-link" target="_blank">Spotify</a>
-                        <a href="https://music.apple.com/gb/artist/bettybop2000/1881358566" class="music-link" target="_blank">Apple Music</a>
-                        <a href="https://youtube.com/@bettybop2000?si=ViLz2uHJes3opmbr" class="music-link" target="_blank">YouTube</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- BettyBop2K Single Player -->
-            <div class="single-player">
-                <p class="release-label">LISTEN NOW</p>
-                <h3>BettyBop2K</h3>
-                <iframe
-                    src="https://open.spotify.com/embed/track/0bZaqpUtKWuPzKIi8p63A4"
-                    width="100%"
-                    height="152"
-                    frameborder="0"
-                    allowtransparency="true"
-                    allow="encrypted-media">
-                </iframe>
-            </div>
-        </div>
-    </section>
-
-    <!-- Music Video Section -->
-    <section class="music-video">
-        <div class="container">
-            <p class="section-pre">VISUALS</p>
-            <h2 class="section-title">BettyBop2K</h2>
-            <div class="video-wrapper">
-                <iframe
-                    src="https://www.youtube.com/embed/0jPXVmfWzL8"
-                    title="BettyBop2K Music Video"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
-            </div>
-        </div>
-    </section>
-
-    <!-- Shop Section -->
-<section id="shop" class="shop">
-    <div class="container">
-        <p class="section-pre">THE COLLECTION</p>
-        <h2 class="section-title">Empire Collection</h2>
-
-        <!-- Pride Print -->
-        <div class="product-feature">
-            <div class="product-feature-image">
-                <img src="assets/pride.jpg" alt="Pride — Bopstar Original No. 1" class="feature-img">
-                <span class="product-badge">Available Now</span>
-            </div>
-            <div class="product-feature-info">
-                <p class="release-label">BOPSTAR ORIGINAL NO. 1</p>
-                <h3 class="product-title">Pride</h3>
-                <p class="product-desc">Oil pastel on cardboard. The first in a trilogy. A statement of self — bold, unapologetic, elevated.</p>
-                <div class="print-options">
-                    <a href="https://buy.stripe.com/dRm3cvaPiatc3XV9zo7wA01" class="btn btn-primary" target="_blank">8" x 10" — £25</a>
-                    <a href="https://buy.stripe.com/5kQ14n7D67h00LJ12S7wA02" class="btn btn-secondary" target="_blank">11" x 14" — £35</a>
-                    <a href="https://buy.stripe.com/8x2aEX6z29p8dyv5j87wA03" class="btn btn-secondary" target="_blank">16" x 20" — £45</a>
-                </div>
-                <p class="product-note">Printed to order. Ships within 5–7 days.</p>
-            </div>
-        </div>
-
-            <div class="product-feature" style="margin-top: 3rem;">
-    <div class="product-feature-image">
-        <img src="assets/respect.jpeg" alt="Respect — Bopstar Original No. 2" class="feature-img">
-        <span class="product-badge">Available Now</span>
-    </div>
-    <div class="product-feature-info">
-        <p class="release-label">BOPSTAR ORIGINAL NO. 2</p>
-        <h3 class="product-title">Respect</h3>
-        <p class="product-desc">The second in the trilogy. A declaration of worth — commanding, unyielding, undeniable.</p>
-        <div class="print-options">
-            <a href="https://buy.stripe.com/14AbJ10aEgRA1PNeTI7wA04" class="btn btn-primary" target="_blank">8" x 10" — £25</a>
-        </div>
-        <p class="product-note">Printed to order. Ships within 5–7 days.</p>
-    </div>
-</div>
-          
- <!-- Coming Soon Grid -->
-<div class="product-card">
-                <div class="product-image">
-                    <span class="coming-soon-badge">Coming Soon</span>
-                </div>
-                <div class="product-info">
-                    <h3>Love</h3>
-                    <p>Bopstar Original No. 3</p>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="coming-soon-badge">Coming Soon</span>
-                </div>
-                <div class="product-info">
-                    <h3>Merch</h3>
-                    <p>Queen essentials</p>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="coming-soon-badge">Coming Soon</span>
-                </div>
-                <div class="product-info">
-                    <h3>Exclusives</h3>
-                    <p>For the inner circle</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Mailing List -->
-        <div class="newsletter">
-            <iframe width="540" height="305" src="https://1ae4e3f5.sibforms.com/serve/MUIFAGbJF2PGPlOU_L_-anNU2yjhpFhqv3cDA8urj5NWM4yxQ9zxuwvB5gfrRNGvXDp8MtQwXR9s6bXO0GoZc5zo-JAmPLMWYcTzoWWNV1cRqV5pjo-bqEcaLqnEEoPX8vq60xwCV2mNznEYLc9h6hYq17e_rjcGy3LsrS65pg36OzRcfngvYs7MaupLz9iBQuB_FEHWsBP-mZ6bGQ==" frameborder="0" scrolling="auto" allowfullscreen style="display:block;margin-left:auto;margin-right:auto;max-width:100%;border:1px solid rgba(139,0,0,0.3);"></iframe>
-        </div>
-
-    </div>
-</section>
-   
-    <!-- Contact Section -->
+    <!-- ========== CONTACT ========== -->
     <section id="contact" class="contact">
         <div class="container">
             <p class="section-pre">GET IN TOUCH</p>
@@ -246,20 +289,33 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Bopstar. All rights reserved.</p>
+            <p>&copy; 2026 Bopstar. All rights reserved.</p>
             <p class="footer-tagline">Building an empire, one beat at a time.</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
-<script>
-  window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
-  window.LOCALE = 'en';
-  window.EMAIL_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
-  window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank.";
-  window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
-  var AUTOHIDE = Boolean(0);
-</script>
-<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+    <script>
+      // Shop tabs
+      const tabs = document.querySelectorAll('.shop-tab');
+      const panels = document.querySelectorAll('.shop-panel');
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          tabs.forEach(t => t.classList.remove('active'));
+          panels.forEach(p => p.classList.remove('active'));
+          tab.classList.add('active');
+          document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+        });
+      });
+    </script>
+    <script>
+      window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+      window.LOCALE = 'en';
+      window.EMAIL_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+      window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank.";
+      window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+      var AUTOHIDE = Boolean(0);
+    </script>
+    <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
 </body>
 </html>
