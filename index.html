@@ -217,7 +217,7 @@
                     <!-- Red Satin Cami -->
                     <div class="product-card-full">
                         <div class="product-card-image">
-                            <img src="assets/satinred-top.jpeg" alt="Red Satin Lace Cami">
+                            <img src="assets/satin-red-top.jpeg" alt="Red Satin Lace Cami">
                             <span class="product-badge-live">Sale</span>
                         </div>
                         <div class="product-card-info">
@@ -253,10 +253,41 @@
                         </div>
                     </div>
 
-                    <!-- Black Duffle Bag -->
+                    <!-- Sequin Wide Strap Mini Dress -->
+                    <div class="product-card-full">
+                        <div class="product-card-image" id="dress-image-container">
+                            <img src="assets/sequinblack-dress.jpeg" alt="Sequin Wide Strap Mini Dress" id="dress-main-img">
+                            <span class="product-badge-live">Sale</span>
+                        </div>
+                        <div class="product-card-info">
+                            <p class="product-number">THE EDIT</p>
+                            <h3 class="product-name">Sequin Wide Strap Mini Dress</h3>
+                            <p class="product-desc">Corset bodice, sequin skirt, wide straps. The dress that walks in before you do.</p>
+                            <div style="margin-bottom:1rem;">
+                                <p style="font-family:'Montserrat',sans-serif;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;opacity:0.6;margin-bottom:0.5rem;">Colour</p>
+                                <div style="display:flex;gap:0.5rem;">
+                                    <button onclick="switchDressColour('black')" id="btn-black" style="padding:6px 16px;border:1px solid #c9a96e;background:#c9a96e;color:#000;font-family:'Montserrat',sans-serif;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;cursor:pointer;">Black</button>
+                                    <button onclick="switchDressColour('red')" id="btn-red" style="padding:6px 16px;border:1px solid rgba(201,169,110,0.5);background:none;color:#c9a96e;font-family:'Montserrat',sans-serif;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;cursor:pointer;">Red</button>
+                                </div>
+                            </div>
+                            <div id="dress-sizes-black" class="size-options">
+                                <a href="https://buy.stripe.com/6oU00je1u8l4eCz4f47wA0r" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Small</a>
+                                <a href="https://buy.stripe.com/dRmcN52iM44O3XVfXM7wA0s" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Medium</a>
+                                <a href="https://buy.stripe.com/00w6oHcXqcBkeCzdPE7wA0t" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Large</a>
+                            </div>
+                            <div id="dress-sizes-red" class="size-options" style="display:none;">
+                                <a href="https://buy.stripe.com/14AdR9g9C9p8gKH3b07wA0o" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Small</a>
+                                <a href="https://buy.stripe.com/4gM9ATbTmbxg51Z26W7wA0p" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Medium</a>
+                                <a href="https://buy.stripe.com/6oU00j6z2gRA7a73b07wA0q" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Large</a>
+                            </div>
+                            <p class="product-note">Made to order · Ships in 7–10 days</p>
+                        </div>
+                    </div>
+
+
                     <div class="product-card-full">
                         <div class="product-card-image">
-                            <img src="assets/leather-dufflebag.jpeg" alt="Black Duffle Bag">
+                            <img src="assets/leather-duffle-bag.jpeg" alt="Black Duffle Bag">
                             <span class="product-badge-live">Sale</span>
                         </div>
                         <div class="product-card-info">
@@ -404,6 +435,33 @@
             <p class="footer-tagline">Building an empire, one beat at a time.</p>
         </div>
     </footer>
+
+    <script>
+      function switchDressColour(colour) {
+        const img = document.getElementById('dress-main-img');
+        const blackSizes = document.getElementById('dress-sizes-black');
+        const redSizes = document.getElementById('dress-sizes-red');
+        const btnBlack = document.getElementById('btn-black');
+        const btnRed = document.getElementById('btn-red');
+        if (colour === 'black') {
+          img.src = 'assets/sequinblack-dress.jpeg';
+          blackSizes.style.display = 'flex';
+          redSizes.style.display = 'none';
+          btnBlack.style.background = '#c9a96e';
+          btnBlack.style.color = '#000';
+          btnRed.style.background = 'none';
+          btnRed.style.color = '#c9a96e';
+        } else {
+          img.src = 'assets/sequinred-dress.jpeg';
+          redSizes.style.display = 'flex';
+          blackSizes.style.display = 'none';
+          btnRed.style.background = '#c9a96e';
+          btnRed.style.color = '#000';
+          btnBlack.style.background = 'none';
+          btnBlack.style.color = '#c9a96e';
+        }
+      }
+    </script>
 
     <script src="script.js"></script>
     <script>
