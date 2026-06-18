@@ -50,8 +50,8 @@
             <p class="tagline">QUEEN. EMPIRE. UNSTOPPABLE.</p>
             <p class="subtitle">Music. Art. Fashion. One world — built by a woman who chose herself.</p>
             <div class="cta-buttons">
-                <a href="#tab-art" class="btn btn-secondary" onclick="document.querySelector('.shop-tab[data-tab=art]').click()">Shop Art</a>
-                <a href="#tab-edit" class="btn btn-secondary" onclick="document.querySelector('.shop-tab[data-tab=edit]').click()">Shop The Edit</a>
+                <a href="#shop" class="btn btn-secondary" onclick="document.querySelector('.shop-tab[data-tab=art]').click()">Shop Art</a>
+                <a href="#shop" class="btn btn-secondary" onclick="document.querySelector('.shop-tab[data-tab=edit]').click()">Shop The Edit</a>
                 <a href="#music" class="btn btn-primary">Listen Now</a>
             </div>
         </div>
@@ -72,6 +72,7 @@
                 <button class="shop-tab active" data-tab="art">Art & Prints</button>
                 <button class="shop-tab" data-tab="fashion">Fashion</button>
                 <button class="shop-tab" data-tab="edit">The Edit</button>
+                <button class="shop-tab" data-tab="selfcare">Self Care</button>
                 <button class="shop-tab" data-tab="books">Books</button>
             </div>
 
@@ -80,7 +81,6 @@
                 <div class="shop-panel-intro">
                     <p>Original oil pastel works on cardboard. Each piece is part of a trilogy — made from truth, printed for your walls.</p>
                 </div>
-
                 <div class="product-grid">
 
                     <!-- Pride -->
@@ -154,7 +154,6 @@
                 <div class="shop-panel-intro">
                     <p>Curated by Bopstar. Dark feminine luxury casual — the gap nobody filled. Pieces that move with you.</p>
                 </div>
-
                 <div class="product-grid">
 
                     <!-- Leopard Set -->
@@ -284,10 +283,10 @@
                         </div>
                     </div>
 
-
+                    <!-- Black Duffle Bag -->
                     <div class="product-card-full">
                         <div class="product-card-image">
-                            <img src="assets/leather-dufflebag.jpeg" alt="Black Duffle Bag">
+                            <img src="assets/leather-duffle-bag.jpeg" alt="Black Duffle Bag">
                             <span class="product-badge-live">Sale</span>
                         </div>
                         <div class="product-card-info">
@@ -301,50 +300,43 @@
                         </div>
                     </div>
 
+                    <!-- Sold Out Tee -->
+                    <div class="product-card-full">
+                        <div class="product-card-image">
+                            <img src="assets/soldout_tee.jpeg" alt="Sold Out Tee">
+                            <span class="product-badge-live">New</span>
+                        </div>
+                        <div class="product-card-info">
+                            <p class="product-number">THE EDIT</p>
+                            <h3 class="product-name">Sold Out Tee</h3>
+                            <p class="product-desc">Oversized crew neck in bold orange with SOLD OUT in jet black. By the time they notice, you're already gone.</p>
+                            <div class="size-options">
+                                <a href="https://buy.stripe.com/00w00j8Ha30K2TRaDs7wA0v" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>£19.99 — Small</a>
+                                <a href="https://buy.stripe.com/00wcN55uY8l48eb5j87wA0w" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>£19.99 — Medium</a>
+                                <a href="https://buy.stripe.com/3cI6oHaPi58Samj12S7wA0x" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>£19.99 — Large</a>
+                                <a href="https://buy.stripe.com/5kQ14n3mQ6cW2TRaDs7wA0y" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>£19.99 — XL</a>
+                            </div>
+                            <p class="product-note">Made to order · Ships in 7–10 days</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
-            <!-- Sold Out Tee -->
-<div class="product-card-full">
-    <div class="product-card-image">
-        <img src="assets/soldout_tee.jpeg" alt="Sold Out Tee">
-        <span class="product-badge-live">New</span>
-    </div>
-    <div class="product-card-info">
-        <p class="product-number">THE EDIT</p>
-        <h3 class="product-name">Sold Out Tee</h3>
-        <p class="product-desc">
-            Oversized crew neck tee in a bold orange colourway with SOLD OUT printed in jet black.
-            Relaxed fit, effortless attitude. Made for the woman who doesn't wait to be chosen —
-            by the time they notice, you're already gone.
-        </p>
-
-        <div class="size-options">
-            <a href="YOUR_STRIPE_LINK_SMALL" class="size-btn" target="_blank">
-                <span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>
-                £19.99 — Small
-            </a>
-
-            <a href="YOUR_STRIPE_LINK_MEDIUM" class="size-btn" target="_blank">
-                <span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>
-                £19.99 — Medium
-            </a>
-
-            <a href="YOUR_STRIPE_LINK_LARGE" class="size-btn" target="_blank">
-                <span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>
-                £19.99 — Large
-            </a>
-
-            <a href="YOUR_STRIPE_LINK_XL" class="size-btn" target="_blank">
-                <span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>
-                £19.99 — XL
-            </a>
-        </div>
-
-        <p class="product-note">Made to order · Ships in 7–10 days</p>
-    </div>
-</div>
-
+            <!-- SELF CARE -->
+            <div class="shop-panel" id="tab-selfcare">
+                <div class="shop-panel-intro">
+                    <p>The ritual starts here. Curated self care for the woman who invests in herself.</p>
+                </div>
+                <div class="coming-soon-full">
+                    <div class="coming-soon-teaser">
+                        <p class="teaser-label">DROPPING SOON</p>
+                        <h3 class="teaser-title">The Ritual</h3>
+                        <p class="teaser-desc">Candles, body care, fragrance and more. Built for the Bopstar world. Join the empire to get first access.</p>
+                        <span class="coming-badge">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
 
             <!-- BOOKS -->
             <div class="shop-panel" id="tab-books">
@@ -506,7 +498,6 @@
 
     <script src="script.js"></script>
     <script>
-      // Shop tabs
       const tabs = document.querySelectorAll('.shop-tab');
       const panels = document.querySelectorAll('.shop-panel');
       tabs.forEach(tab => {
