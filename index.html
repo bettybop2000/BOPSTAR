@@ -27,7 +27,6 @@
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#shop">Shop</a></li>
-                <li><a href="#music">Music & Visuals</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -48,9 +47,8 @@
             <p class="tagline">EMPIRE. UNSTOPPABLE.</p>
             <p class="subtitle">Music. Art. Fashion. One world — built for those who will not dim their light.</p>
             <div class="cta-buttons">
-                <a href="#shop" class="btn btn-secondary" onclick="document.querySelector('.shop-tab[data-tab=art]').click()">Shop Art</a>
-                <a href="#shop" class="btn btn-secondary" onclick="document.querySelector('.shop-tab[data-tab=edit]').click()">Shop The Edit</a>
-                <a href="#music" class="btn btn-primary">Listen Now</a>
+                <a href="#shop" class="btn btn-primary" onclick="document.querySelector('.shop-tab[data-tab=edit]').click()">Shop The Boutique</a>
+                <a href="#shop" class="btn btn-secondary" onclick="document.querySelector('.shop-tab[data-tab=fashion]').click()">Bopstar Fashion</a>
             </div>
         </div>
         <div class="scroll-indicator">
@@ -65,15 +63,214 @@
             <h2 class="section-title">Shop</h2>
 
             <div class="shop-tabs">
-                <button class="shop-tab active" data-tab="art">Art & Prints</button>
+                <button class="shop-tab active" data-tab="edit">The Boutique</button>
                 <button class="shop-tab" data-tab="fashion">Fashion</button>
-                <button class="shop-tab" data-tab="edit">The Edit</button>
+                <button class="shop-tab" data-tab="art">Art & Prints</button>
                 <button class="shop-tab" data-tab="selfcare">Self Care</button>
-                <button class="shop-tab" data-tab="books">Books</button>
+            </div>
+
+            <!-- THE BOUTIQUE -->
+            <div class="shop-panel active" id="tab-edit">
+                <div class="shop-panel-intro">
+                    <p>Curated by Bopstar. Dark luxury casual — the gap nobody filled. Pieces that move with you.</p>
+                </div>
+                <div class="product-grid">
+
+                    <div class="product-card-full">
+                        <div class="product-card-image">
+                            <img src="assets/leopard-set.JPEG" alt="The Leopard Set">
+                            <span class="product-badge-live">Sale</span>
+                        </div>
+                        <div class="product-card-info">
+                            <p class="product-number">THE BOUTIQUE</p>
+                            <h3 class="product-name">The Leopard Set</h3>
+                            <p class="product-desc">Wild by nature. Fitted cami top with lace trim, paired with a ruffle-hem mini skirt. Soft, satin-feel fabric that moves with you. Light support — no bra needed for smaller to medium busts. Skirt runs slightly generous — style it pulled up for mini or wear longer for midi.</p>
+                            <div class="size-options">
+                                <a href="https://buy.stripe.com/eVqdR92iM8l4fGDcLA7wA05" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£52</span>£42 — Small</a>
+                                <a href="https://buy.stripe.com/eVqeVd0aEeJs7a77rg7wA06" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£52</span>£42 — Medium</a>
+                                <a href="https://buy.stripe.com/8x2eVd3mQ7h0fGD12S7wA07" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£52</span>£42 — Large</a>
+                            </div>
+                            <p class="product-note">Made to order · Ships in 7–10 days</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card-full">
+                        <div class="product-card-image">
+                            <img src="assets/polkadot-top.jpeg" alt="The Spot Mesh Top">
+                            <span class="product-badge-live">Sale</span>
+                        </div>
+                        <div class="product-card-info">
+                            <p class="product-number">THE BOUTIQUE</p>
+                            <h3 class="product-name">The Spot Mesh Top</h3>
+                            <p class="product-desc">Sheer mesh, bold spots, flared sleeves. The kind of top that doesn't ask for permission.</p>
+                            <div class="size-options">
+                                <a href="https://buy.stripe.com/00w14ng9C9p8curdPE7wA08" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£34.99</span>£23.99 — Small</a>
+                                <a href="https://buy.stripe.com/4gM7sL9Le8l451Z12S7wA09" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£34.99</span>£23.99 — Medium</a>
+                                <a href="https://buy.stripe.com/4gM00j7D630K9if9zo7wA0a" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£34.99</span>£23.99 — Large</a>
+                            </div>
+                            <p class="product-note">Made to order · Ships in 7–10 days</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card-full">
+                        <div class="product-card-image">
+                            <img src="assets/Redlace-top.jpeg" alt="Red Lace Corset Top">
+                            <span class="product-badge-live">Sale</span>
+                        </div>
+                        <div class="product-card-info">
+                            <p class="product-number">THE BOUTIQUE</p>
+                            <h3 class="product-name">Red Lace Corset Top</h3>
+                            <p class="product-desc">Red lace, structured corset fit, sweetheart neckline. Power dressed as seduction.</p>
+                            <div class="size-options">
+                                <a href="https://buy.stripe.com/28E7sLf5ybxgeCz4f47wA0i" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£29.99</span>£22.99 — Small</a>
+                                <a href="https://buy.stripe.com/3cI14naPibxg2TR5j87wA0l" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£29.99</span>£22.99 — Medium</a>
+                                <a href="https://buy.stripe.com/6oUeVd1eIatc9ifcLA7wA0m" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£29.99</span>£22.99 — Large</a>
+                            </div>
+                            <p class="product-note">Made to order · Ships in 7–10 days</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card-full">
+                        <div class="product-card-image">
+                            <img src="assets/satinred-top.jpeg" alt="Red Satin Lace Cami">
+                            <span class="product-badge-live">Sale</span>
+                        </div>
+                        <div class="product-card-info">
+                            <p class="product-number">THE BOUTIQUE</p>
+                            <h3 class="product-name">Red Satin Cami</h3>
+                            <p class="product-desc">Red satin, lace trim, thin straps. Wear it out or wear it in — either way, it's giving.</p>
+                            <div class="size-options">
+                                <a href="https://buy.stripe.com/7sY5kD6z2eJsamj7rg7wA0e" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£39.99</span>£29.99 — Small</a>
+                                <a href="https://buy.stripe.com/14AaEX8Ha58S663eTI7wA0f" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£39.99</span>£29.99 — Medium</a>
+                                <a href="https://buy.stripe.com/28E3cv4qU7h07a76nc7wA0g" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£39.99</span>£29.99 — Large</a>
+                                <a href="https://buy.stripe.com/7sYaEX6z2bxg51Z6nc7wA0h" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£39.99</span>£29.99 — XL</a>
+                            </div>
+                            <p class="product-note">Made to order · Ships in 7–10 days</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card-full">
+                        <div class="product-card-image">
+                            <img src="assets/black-tracksuit.jpeg" alt="The Black Set">
+                            <span class="product-badge-live">Sale</span>
+                        </div>
+                        <div class="product-card-info">
+                            <p class="product-number">THE BOUTIQUE</p>
+                            <h3 class="product-name">The Black Set</h3>
+                            <p class="product-desc">Black crop tank and joggers with crystal trim detail. Casual never looked this intentional.</p>
+                            <div class="size-options">
+                                <a href="https://buy.stripe.com/14A14n1eI58S6635j87wA0b" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£44.99</span>£34.99 — Small</a>
+                                <a href="https://buy.stripe.com/4gM6oH7D69p8eCz8vk7wA0c" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£44.99</span>£34.99 — Medium</a>
+                                <a href="https://buy.stripe.com/00w4gzg9C6cW51Zh1Q7wA0d" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£44.99</span>£34.99 — Large</a>
+                            </div>
+                            <p class="product-note">Made to order · Ships in 7–10 days</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card-full">
+                        <div class="product-card-image" id="dress-image-container">
+                            <img src="assets/sequinblack-dress.jpeg" alt="Sequin Wide Strap Mini Dress" id="dress-main-img">
+                            <span class="product-badge-live">Sale</span>
+                        </div>
+                        <div class="product-card-info">
+                            <p class="product-number">THE BOUTIQUE</p>
+                            <h3 class="product-name">Sequin Wide Strap Mini Dress</h3>
+                            <p class="product-desc">Corset bodice, sequin skirt, wide straps. The dress that walks in before you do.</p>
+                            <div style="margin-bottom:1rem;">
+                                <p style="font-family:'Montserrat',sans-serif;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;opacity:0.6;margin-bottom:0.5rem;">Colour</p>
+                                <div style="display:flex;gap:0.5rem;">
+                                    <button onclick="switchDressColour('black')" id="btn-black" style="padding:6px 16px;border:1px solid #c9a96e;background:#c9a96e;color:#000;font-family:'Montserrat',sans-serif;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;cursor:pointer;">Black</button>
+                                    <button onclick="switchDressColour('red')" id="btn-red" style="padding:6px 16px;border:1px solid rgba(201,169,110,0.5);background:none;color:#c9a96e;font-family:'Montserrat',sans-serif;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;cursor:pointer;">Red</button>
+                                </div>
+                            </div>
+                            <div id="dress-sizes-black" class="size-options">
+                                <a href="https://buy.stripe.com/6oU00je1u8l4eCz4f47wA0r" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Small</a>
+                                <a href="https://buy.stripe.com/dRmcN52iM44O3XVfXM7wA0s" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Medium</a>
+                                <a href="https://buy.stripe.com/00w6oHcXqcBkeCzdPE7wA0t" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Large</a>
+                            </div>
+                            <div id="dress-sizes-red" class="size-options" style="display:none;">
+                                <a href="https://buy.stripe.com/14AdR9g9C9p8gKH3b07wA0o" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Small</a>
+                                <a href="https://buy.stripe.com/4gM9ATbTmbxg51Z26W7wA0p" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Medium</a>
+                                <a href="https://buy.stripe.com/6oU00j6z2gRA7a73b07wA0q" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Large</a>
+                            </div>
+                            <p class="product-note">Made to order · Ships in 7–10 days</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card-full">
+                        <div class="product-card-image">
+                            <img src="assets/leather-dufflebag.jpeg" alt="Black Duffle Bag">
+                            <span class="product-badge-live">Sale</span>
+                        </div>
+                        <div class="product-card-info">
+                            <p class="product-number">THE BOUTIQUE</p>
+                            <h3 class="product-name">Black Duffle Bag</h3>
+                            <p class="product-desc">Structured faux leather duffle with script detail. For those who always arrive prepared.</p>
+                            <div class="size-options">
+                                <a href="https://buy.stripe.com/14A5kD3mQfNwfGDdPE7wA0n" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£49.99</a>
+                            </div>
+                            <p class="product-note">Ships in 7–10 days</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card-full">
+                        <div class="product-card-image">
+                            <img src="assets/denimjacket_black.jpeg" alt="Washed Button Up Hooded Denim Jacket">
+                            <span class="product-badge-live">Sale</span>
+                        </div>
+                        <div class="product-card-info">
+                            <p class="product-number">THE BOUTIQUE</p>
+                            <h3 class="product-name">Washed Denim Jacket</h3>
+                            <p class="product-desc">Washed black denim, hooded, button up. The kind of jacket that means business without saying a word. Layer it over everything — it goes with the empire.</p>
+                            <div class="size-options">
+                                <a href="https://buy.stripe.com/9B6aEX7D6cBk1PN3b07wA0z" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£79.99</span>£59.99 — Small</a>
+                                <a href="https://buy.stripe.com/7sY7sL6z27h06633b07wA0A" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£79.99</span>£59.99 — Medium</a>
+                                <a href="https://buy.stripe.com/4gM7sL4qU9p82TR3b07wA0B" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£79.99</span>£59.99 — Large</a>
+                                <a href="https://buy.stripe.com/cNi8wP1eI8l4663aDs7wA0C" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£79.99</span>£59.99 — XL</a>
+                            </div>
+                            <p class="product-note">Made to order · Ships in 7–10 days</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card-full">
+                        <div class="product-card-image">
+                            <img src="assets/soldout_tee.jpeg" alt="Sold Out Tee">
+                            <span class="product-badge-live">New</span>
+                        </div>
+                        <div class="product-card-info">
+                            <p class="product-number">THE BOUTIQUE</p>
+                            <h3 class="product-name">Sold Out Tee</h3>
+                            <p class="product-desc">Oversized crew neck in bold orange with SOLD OUT in jet black. By the time they notice, you're already gone.</p>
+                            <div class="size-options">
+                                <a href="https://buy.stripe.com/00w00j8Ha30K2TRaDs7wA0v" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>£19.99 — Small</a>
+                                <a href="https://buy.stripe.com/00wcN55uY8l48eb5j87wA0w" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>£19.99 — Medium</a>
+                                <a href="https://buy.stripe.com/3cI6oHaPi58Samj12S7wA0x" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>£19.99 — Large</a>
+                                <a href="https://buy.stripe.com/5kQ14n3mQ6cW2TRaDs7wA0y" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>£19.99 — XL</a>
+                            </div>
+                            <p class="product-note">Made to order · Ships in 7–10 days</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- FASHION -->
+            <div class="shop-panel" id="tab-fashion">
+                <div class="shop-panel-intro">
+                    <p>Bopstar original designs. Dark, elevated, wearable. Built for those who move through the world on their own terms.</p>
+                </div>
+                <div class="coming-soon-full">
+                    <div class="coming-soon-teaser">
+                        <p class="teaser-label">FIRST DROP</p>
+                        <h3 class="teaser-title">The Yellow Two Piece</h3>
+                        <p class="teaser-desc">Fine mesh. Fur trim. Corset back. [DENIED.] painted on the spine. Coming when it's ready.</p>
+                        <span class="coming-badge">In Production</span>
+                    </div>
+                </div>
             </div>
 
             <!-- ART & PRINTS -->
-            <div class="shop-panel active" id="tab-art">
+            <div class="shop-panel" id="tab-art">
                 <div class="shop-panel-intro">
                     <p>Original oil pastel works on cardboard. Each piece is part of a trilogy — made from truth, printed for your walls.</p>
                 </div>
@@ -123,206 +320,6 @@
                 </div>
             </div>
 
-            <!-- FASHION -->
-            <div class="shop-panel" id="tab-fashion">
-                <div class="shop-panel-intro">
-                    <p>Bopstar original designs. Dark, elevated, wearable. Built for those who move through the world on their own terms.</p>
-                </div>
-                <div class="coming-soon-full">
-                    <div class="coming-soon-teaser">
-                        <p class="teaser-label">FIRST DROP</p>
-                        <h3 class="teaser-title">The Yellow Two Piece</h3>
-                        <p class="teaser-desc">Fine mesh. Fur trim. Corset back. [DENIED.] painted on the spine. Coming when it's ready.</p>
-                        <span class="coming-badge">In Production</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- THE EDIT -->
-            <div class="shop-panel" id="tab-edit">
-                <div class="shop-panel-intro">
-                    <p>Curated by Bopstar. Dark luxury casual — the gap nobody filled. Pieces that move with you.</p>
-                </div>
-                <div class="product-grid">
-
-                    <div class="product-card-full">
-                        <div class="product-card-image">
-                            <img src="assets/leopard-set.JPEG" alt="The Leopard Set">
-                            <span class="product-badge-live">Sale</span>
-                        </div>
-                        <div class="product-card-info">
-                            <p class="product-number">THE EDIT</p>
-                            <h3 class="product-name">The Leopard Set</h3>
-                            <p class="product-desc">Wild by nature. Fitted cami top with lace trim, paired with a ruffle-hem mini skirt. Soft, satin-feel fabric that moves with you. Light support — no bra needed for smaller to medium busts. Skirt runs slightly generous — style it pulled up for mini or wear longer for midi.</p>
-                            <div class="size-options">
-                                <a href="https://buy.stripe.com/eVqdR92iM8l4fGDcLA7wA05" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£52</span>£42 — Small</a>
-                                <a href="https://buy.stripe.com/eVqeVd0aEeJs7a77rg7wA06" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£52</span>£42 — Medium</a>
-                                <a href="https://buy.stripe.com/8x2eVd3mQ7h0fGD12S7wA07" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£52</span>£42 — Large</a>
-                            </div>
-                            <p class="product-note">Made to order · Ships in 7–10 days</p>
-                        </div>
-                    </div>
-
-                    <div class="product-card-full">
-                        <div class="product-card-image">
-                            <img src="assets/polkadot-top.jpeg" alt="The Spot Mesh Top">
-                            <span class="product-badge-live">Sale</span>
-                        </div>
-                        <div class="product-card-info">
-                            <p class="product-number">THE EDIT</p>
-                            <h3 class="product-name">The Spot Mesh Top</h3>
-                            <p class="product-desc">Sheer mesh, bold spots, flared sleeves. The kind of top that doesn't ask for permission.</p>
-                            <div class="size-options">
-                                <a href="https://buy.stripe.com/00w14ng9C9p8curdPE7wA08" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£34.99</span>£23.99 — Small</a>
-                                <a href="https://buy.stripe.com/4gM7sL9Le8l451Z12S7wA09" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£34.99</span>£23.99 — Medium</a>
-                                <a href="https://buy.stripe.com/4gM00j7D630K9if9zo7wA0a" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£34.99</span>£23.99 — Large</a>
-                            </div>
-                            <p class="product-note">Made to order · Ships in 7–10 days</p>
-                        </div>
-                    </div>
-
-                    <div class="product-card-full">
-                        <div class="product-card-image">
-                            <img src="assets/Redlace-top.jpeg" alt="Red Lace Corset Top">
-                            <span class="product-badge-live">Sale</span>
-                        </div>
-                        <div class="product-card-info">
-                            <p class="product-number">THE EDIT</p>
-                            <h3 class="product-name">Red Lace Corset Top</h3>
-                            <p class="product-desc">Red lace, structured corset fit, sweetheart neckline. Power dressed as seduction.</p>
-                            <div class="size-options">
-                                <a href="https://buy.stripe.com/28E7sLf5ybxgeCz4f47wA0i" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£29.99</span>£22.99 — Small</a>
-                                <a href="https://buy.stripe.com/3cI14naPibxg2TR5j87wA0l" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£29.99</span>£22.99 — Medium</a>
-                                <a href="https://buy.stripe.com/6oUeVd1eIatc9ifcLA7wA0m" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£29.99</span>£22.99 — Large</a>
-                            </div>
-                            <p class="product-note">Made to order · Ships in 7–10 days</p>
-                        </div>
-                    </div>
-
-                    <div class="product-card-full">
-                        <div class="product-card-image">
-                            <img src="assets/satinred-top.jpeg" alt="Red Satin Lace Cami">
-                            <span class="product-badge-live">Sale</span>
-                        </div>
-                        <div class="product-card-info">
-                            <p class="product-number">THE EDIT</p>
-                            <h3 class="product-name">Red Satin Cami</h3>
-                            <p class="product-desc">Red satin, lace trim, thin straps. Wear it out or wear it in — either way, it's giving.</p>
-                            <div class="size-options">
-                                <a href="https://buy.stripe.com/7sY5kD6z2eJsamj7rg7wA0e" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£39.99</span>£29.99 — Small</a>
-                                <a href="https://buy.stripe.com/14AaEX8Ha58S663eTI7wA0f" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£39.99</span>£29.99 — Medium</a>
-                                <a href="https://buy.stripe.com/28E3cv4qU7h07a76nc7wA0g" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£39.99</span>£29.99 — Large</a>
-                                <a href="https://buy.stripe.com/7sYaEX6z2bxg51Z6nc7wA0h" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£39.99</span>£29.99 — XL</a>
-                            </div>
-                            <p class="product-note">Made to order · Ships in 7–10 days</p>
-                        </div>
-                    </div>
-
-                    <div class="product-card-full">
-                        <div class="product-card-image">
-                            <img src="assets/black-tracksuit.jpeg" alt="The Black Set">
-                            <span class="product-badge-live">Sale</span>
-                        </div>
-                        <div class="product-card-info">
-                            <p class="product-number">THE EDIT</p>
-                            <h3 class="product-name">The Black Set</h3>
-                            <p class="product-desc">Black crop tank and joggers with crystal trim detail. Casual never looked this intentional.</p>
-                            <div class="size-options">
-                                <a href="https://buy.stripe.com/14A14n1eI58S6635j87wA0b" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£44.99</span>£34.99 — Small</a>
-                                <a href="https://buy.stripe.com/4gM6oH7D69p8eCz8vk7wA0c" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£44.99</span>£34.99 — Medium</a>
-                                <a href="https://buy.stripe.com/00w4gzg9C6cW51Zh1Q7wA0d" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£44.99</span>£34.99 — Large</a>
-                            </div>
-                            <p class="product-note">Made to order · Ships in 7–10 days</p>
-                        </div>
-                    </div>
-
-                    <div class="product-card-full">
-                        <div class="product-card-image" id="dress-image-container">
-                            <img src="assets/sequinblack-dress.jpeg" alt="Sequin Wide Strap Mini Dress" id="dress-main-img">
-                            <span class="product-badge-live">Sale</span>
-                        </div>
-                        <div class="product-card-info">
-                            <p class="product-number">THE EDIT</p>
-                            <h3 class="product-name">Sequin Wide Strap Mini Dress</h3>
-                            <p class="product-desc">Corset bodice, sequin skirt, wide straps. The dress that walks in before you do.</p>
-                            <div style="margin-bottom:1rem;">
-                                <p style="font-family:'Montserrat',sans-serif;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;opacity:0.6;margin-bottom:0.5rem;">Colour</p>
-                                <div style="display:flex;gap:0.5rem;">
-                                    <button onclick="switchDressColour('black')" id="btn-black" style="padding:6px 16px;border:1px solid #c9a96e;background:#c9a96e;color:#000;font-family:'Montserrat',sans-serif;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;cursor:pointer;">Black</button>
-                                    <button onclick="switchDressColour('red')" id="btn-red" style="padding:6px 16px;border:1px solid rgba(201,169,110,0.5);background:none;color:#c9a96e;font-family:'Montserrat',sans-serif;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;cursor:pointer;">Red</button>
-                                </div>
-                            </div>
-                            <div id="dress-sizes-black" class="size-options">
-                                <a href="https://buy.stripe.com/6oU00je1u8l4eCz4f47wA0r" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Small</a>
-                                <a href="https://buy.stripe.com/dRmcN52iM44O3XVfXM7wA0s" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Medium</a>
-                                <a href="https://buy.stripe.com/00w6oHcXqcBkeCzdPE7wA0t" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Large</a>
-                            </div>
-                            <div id="dress-sizes-red" class="size-options" style="display:none;">
-                                <a href="https://buy.stripe.com/14AdR9g9C9p8gKH3b07wA0o" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Small</a>
-                                <a href="https://buy.stripe.com/4gM9ATbTmbxg51Z26W7wA0p" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Medium</a>
-                                <a href="https://buy.stripe.com/6oU00j6z2gRA7a73b07wA0q" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£44.99 — Large</a>
-                            </div>
-                            <p class="product-note">Made to order · Ships in 7–10 days</p>
-                        </div>
-                    </div>
-
-                    <div class="product-card-full">
-                        <div class="product-card-image">
-                            <img src="assets/leather-dufflebag.jpeg" alt="Black Duffle Bag">
-                            <span class="product-badge-live">Sale</span>
-                        </div>
-                        <div class="product-card-info">
-                            <p class="product-number">THE EDIT</p>
-                            <h3 class="product-name">Black Duffle Bag</h3>
-                            <p class="product-desc">Structured faux leather duffle with script detail. For those who always arrive prepared.</p>
-                            <div class="size-options">
-                                <a href="https://buy.stripe.com/14A5kD3mQfNwfGDdPE7wA0n" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£59.99</span>£49.99</a>
-                            </div>
-                            <p class="product-note">Ships in 7–10 days</p>
-                        </div>
-                    </div>
-
-                    <div class="product-card-full">
-                        <div class="product-card-image">
-                            <img src="assets/denimjacket_black.jpeg" alt="Washed Button Up Hooded Denim Jacket">
-                            <span class="product-badge-live">Sale</span>
-                        </div>
-                        <div class="product-card-info">
-                            <p class="product-number">THE EDIT</p>
-                            <h3 class="product-name">Washed Denim Jacket</h3>
-                            <p class="product-desc">Washed black denim, hooded, button up. The kind of jacket that means business without saying a word. Layer it over everything — it goes with the empire.</p>
-                            <div class="size-options">
-                                <a href="https://buy.stripe.com/9B6aEX7D6cBk1PN3b07wA0z" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£79.99</span>£59.99 — Small</a>
-                                <a href="https://buy.stripe.com/7sY7sL6z27h06633b07wA0A" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£79.99</span>£59.99 — Medium</a>
-                                <a href="https://buy.stripe.com/4gM7sL4qU9p82TR3b07wA0B" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£79.99</span>£59.99 — Large</a>
-                                <a href="https://buy.stripe.com/cNi8wP1eI8l4663aDs7wA0C" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£79.99</span>£59.99 — XL</a>
-                            </div>
-                            <p class="product-note">Made to order · Ships in 7–10 days</p>
-                        </div>
-                    </div>
-
-                    <div class="product-card-full">
-                        <div class="product-card-image">
-                            <img src="assets/soldout_tee.jpeg" alt="Sold Out Tee">
-                            <span class="product-badge-live">New</span>
-                        </div>
-                        <div class="product-card-info">
-                            <p class="product-number">THE EDIT</p>
-                            <h3 class="product-name">Sold Out Tee</h3>
-                            <p class="product-desc">Oversized crew neck in bold orange with SOLD OUT in jet black. By the time they notice, you're already gone.</p>
-                            <div class="size-options">
-                                <a href="https://buy.stripe.com/00w00j8Ha30K2TRaDs7wA0v" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>£19.99 — Small</a>
-                                <a href="https://buy.stripe.com/00wcN55uY8l48eb5j87wA0w" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>£19.99 — Medium</a>
-                                <a href="https://buy.stripe.com/3cI6oHaPi58Samj12S7wA0x" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>£19.99 — Large</a>
-                                <a href="https://buy.stripe.com/5kQ14n3mQ6cW2TRaDs7wA0y" class="size-btn" target="_blank"><span style="text-decoration:line-through;opacity:0.5;margin-right:8px;">£24.99</span>£19.99 — XL</a>
-                            </div>
-                            <p class="product-note">Made to order · Ships in 7–10 days</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
             <!-- SELF CARE -->
             <div class="shop-panel" id="tab-selfcare">
                 <div class="shop-panel-intro">
@@ -357,56 +354,12 @@
                 </div>
             </div>
 
-            <!-- BOOKS -->
-            <div class="shop-panel" id="tab-books">
-                <div class="shop-panel-intro">
-                    <p>Words from the empire. Coming soon.</p>
-                </div>
-                <div class="coming-soon-full">
-                    <div class="coming-soon-teaser">
-                        <p class="teaser-label">COMING SOON</p>
-                        <h3 class="teaser-title">Books</h3>
-                        <p class="teaser-desc">The empire in words. Stay close.</p>
-                        <span class="coming-badge">Coming Soon</span>
-                    </div>
-                </div>
-            </div>
-
             <div class="newsletter">
                 <h3>Join The Empire</h3>
-                <p>First access to new drops, music, and exclusives</p>
+                <p>First access to new drops and exclusives</p>
                 <iframe width="540" height="305" src="https://1ae4e3f5.sibforms.com/serve/MUIFAGbJF2PGPlOU_L_-anNU2yjhpFhqv3cDA8urj5NWM4yxQ9zxuwvB5gfrRNGvXDp8MtQwXR9s6bXO0GoZc5zo-JAmPLMWYcTzoWWNV1cRqV5pjo-bqEcaLqnEEoPX8vq60xwCV2mNznEYLc9h6hYq17e_rjcGy3LsrS65pg36OzRcfngvYs7MaupLz9iBQuB_FEHWsBP-mZ6bGQ==" frameborder="0" scrolling="auto" allowfullscreen style="display:block;margin-left:auto;margin-right:auto;max-width:100%;border:1px solid rgba(139,0,0,0.3);"></iframe>
             </div>
 
-        </div>
-    </section>
-
-    <section id="music" class="music">
-        <div class="container">
-            <p class="section-pre">MUSIC & VISUALS</p>
-            <h2 class="section-title">The Sound</h2>
-            <div class="release-card">
-                <img src="assets/demand-cover.PNG" alt="Demand Cover" class="release-cover">
-                <div class="release-info">
-                    <p class="release-label">LATEST RELEASE</p>
-                    <h3>Demand</h3>
-                    <p>The empire's first decree</p>
-                    <div class="music-links">
-                        <a href="https://open.spotify.com/artist/224KNJeeaIAMvaP5sXHRSl?si=l_kCopy0RPq--ftmcL3CGQ" class="music-link" target="_blank">Spotify</a>
-                        <a href="https://music.apple.com/gb/artist/bettybop2000/1881358566" class="music-link" target="_blank">Apple Music</a>
-                        <a href="https://youtube.com/@bettybop2000?si=ViLz2uHJes3opmbr" class="music-link" target="_blank">YouTube</a>
-                    </div>
-                </div>
-            </div>
-            <div class="single-player">
-                <p class="release-label">LISTEN NOW</p>
-                <h3>BettyBop2K</h3>
-                <iframe src="https://open.spotify.com/embed/track/0bZaqpUtKWuPzKIi8p63A4" width="100%" height="152" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            </div>
-            <div class="video-wrapper" style="margin-top:3rem;">
-                <p class="release-label" style="margin-bottom:1rem;">VISUALS</p>
-                <iframe src="https://www.youtube.com/embed/0jPXVmfWzL8" title="BettyBop2K Music Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
         </div>
     </section>
 
@@ -418,7 +371,7 @@
                 <div class="about-text">
                     <p class="lead">This is not a store. This is a world.</p>
                     <p>Bopstar was born in Lagos, built in London, and created for a specific kind of person — the one who has always known they were different. The one who walks into a room and changes the temperature. The one who will not dim their light for anyone.</p>
-                    <p>At the intersection of music, art, and fashion, Bopstar exists as a creative force that cannot be boxed, compared, or ignored. Every painting carries a truth. Every piece in The Edit was chosen with intention. Every note was written from somewhere real.</p>
+                    <p>At the intersection of music, art, and fashion, Bopstar exists as a creative force that cannot be boxed, compared, or ignored. Every painting carries a truth. Every piece in The Boutique was chosen with intention. Every note was written from somewhere real.</p>
                     <p>This is not fast fashion. This is not background music. This is not decoration.</p>
                     <p class="quote">"This is the empire — and it was built for you."</p>
                 </div>
